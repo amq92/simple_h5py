@@ -5,7 +5,7 @@ with open('README.md', 'r', encoding='utf-8') as fh:
 
 setup(
     name='simple_h5py',
-    version='0.1.1',
+    version='0.1.2',
     author='Arturo Mendoza',
     description='A simple wrapper for the h5py library.',
     long_description=long_description,
