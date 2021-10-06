@@ -48,7 +48,13 @@ demo.h5
 ## Contents
 + [Installation instructions](#installation-instructions)
 + [Library Features](#library-features)
+    - [Full Python experience ](#rocket-full-python-experience-)
+    - [Intelligent open/close of file](#zap-intelligent-open/close-of-file)
+    - [Handling of BIG ATTRIBUTES](#earth_americas-handling-of-big-attributes)
+    - [Nice `print` of the content-tree](#pencil2-nice-print-of-the-content-tree)
+    - [Define required attributes](#cake-extra-define-required-attributes)
 + [Additional notes](#additional-notes)
++ [Equivalent snippet using `h5py`](#equivalent-snippet-using-h5py)
 
 ## Installation instructions
 
@@ -203,7 +209,7 @@ obj = StrictH5File('myfile.h5')
 
 ## Additional notes
 
-`simple_h5py` is not meant to be `h5py` replacement but a useful sidekick.
+`simple_h5py` is not meant to be a `h5py` replacement but a useful sidekick.
 Indeed, for "simple" use-cases, such as those shown here, `simple_h5py` allows faster development by *hiding* many of the implementation details.
 As such, `h5py` should be employed for more advanced or custom needs.
 Moroever, a file can be written with `simple_h5py` and then be read using `h5py`, and viceversa.
