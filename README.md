@@ -1,5 +1,13 @@
 <h1 align="center">simple h5py</h1>
 <p align="center">A simple wrapper for the h5py library<p>
+<p align="center">
+<a href="https://github.com/amq92/simple_h5py/actions/workflows/python-publish-pypi.yml">
+    <img src="https://github.com/amq92/simple_h5py/actions/workflows/python-publish-pypi.yml/badge.svg" alt="Publish to PyPI" />
+</a>
+<a href="https://github.com/amq92/simple_h5py/actions/workflows/python-package-conda.yml">
+    <img src="https://github.com/amq92/simple_h5py/actions/workflows/python-package-conda.yml/badge.svg" alt="Publish to Conda" />
+</a>
+</p>
 
 
 ```python
