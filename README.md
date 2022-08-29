@@ -75,7 +75,7 @@ pip install simple_h5py
 From Conda
 
 ```bash
-conda install -c arturo.mendoza.quispe simple_h5py
+conda install -c conda-forge simple_h5py
 ```
 
 From git
